@@ -7,6 +7,8 @@ header('Access-Control-Allow-Origin: *');
 
 require_once __DIR__ . '/config.php';
 
+date_default_timezone_set('America/Argentina/Buenos_Aires');
+
 /**
  * Hace una consulta paginada a la API de UniFi y devuelve todos los items
  */
